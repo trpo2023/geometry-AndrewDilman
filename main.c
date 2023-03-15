@@ -3,9 +3,16 @@
 
 int main()
 {
+	FILE *myfile;
+	myfile = fopen("circle.txt", "r");
 	char k[128]=gets();
 	printf("%s",k);
 	return 0;
+}
+
+int CheckInput()
+{
+	
 }
 
 int Circle(int x, int y, int r)
